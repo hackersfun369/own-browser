@@ -47,7 +47,7 @@ class Browser(QMainWindow):
         self.url_bar.setText(q.toString())
 
 app = QApplication(sys.argv)
-QApplication.setApplicationName("Sathya Browser")
+QApplication.setApplicationName("Own-Browser")
 window = Browser()
 window.show()
 app.exec_()
